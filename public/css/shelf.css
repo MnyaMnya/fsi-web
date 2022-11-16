@@ -1,0 +1,37 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../img/tback.jpeg');
+    color: rgb(0, 0, 0);
+    caption-side: top;
+    width: 600px;
+    text-align: center;
+    border-spacing: 0;
+    border: #e0b070 25px solid;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+table tr td {
+    border-bottom: #e0b070 25px solid;
+}
+
+table tr:last-child td {
+    border-bottom: #e0b070 0px solid;
+}
+
+table td {
+    width: 200px;
+    height: 300px;
+    padding: 25px;
+}
+
+td:hover img {
+    border: #13c236 10px solid;
+    -webkit-animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate both;
+    animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate both;
+}
+
+td:hover {
+    padding: 15px;
+}

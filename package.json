@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Ini adalah repo Ibrahim2340 jangan di ganggu :v<br/>\r ## Link\r Ini adalah link website nya [Klik saya](https://mnyamnya.github.io/Test/).<br/>\r itu saja dulu bye<br/>\r ## TO-DO (HTML)\r - [ ] Fix Some alignment\r - [ ] Redo background\r - [ ] Redo the font\r - [ ] Add all missing page\r - [ ] Integrated all Home bar\r - [ ] Fullscreen img on-click\r - [x] ~~Change ViewerJS to pdf.js~~\r ## TO-DO (C++)\r - [ ] Create A Index Program\r - [ ] Change All code to Header\r - [ ] Create a Database Program\r - [ ] Change How The Password And Username Stored\r - [ ] Fix check-nilai.cpp\r ### Side note\r <li>Yang masih memakai light theme maaf aku malas buat style nya :v</li> <br/>",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MnyaMnya/Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MnyaMnya/Test/issues"
+  },
+  "homepage": "https://github.com/MnyaMnya/Test#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.10.2"
+  }
+}

@@ -1,0 +1,102 @@
+@media only screen and (max-device-width: 480px) {
+    #div1 {
+        background-image: url('../img/gquran.jpg');
+        margin: 0 auto;
+        text-align: center;
+        text-align-last: center;
+        font-size: 1.2em;
+        padding-left: 200px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-right: 200px;
+        border: 0;
+        margin-bottom: 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #div1 img {
+        margin: auto;
+    }
+    h1 {
+        line-height: 1.2;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: "Alegreya", serif;
+        text-decoration: none;
+        text-shadow: 3px 3px 1px rgb(0 0 0 / 50%);
+    }
+    #div2 button {
+        background-color: rgb(206, 201, 201);
+        border: 0;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        width: 100vw;
+        left: -100vw;
+        display: block;
+    }
+    #div2 {
+        margin: 0 auto;
+        text-align: center;
+        cursor: pointer;
+        border-bottom: rgb(228, 167, 35) 10px solid;
+        display: block;
+    }
+    #div3 {
+        list-style-position: inside;
+        color: rgb(255, 255, 255);
+        display: none;
+        line-height: 20px;
+        margin: 0 auto;
+        text-align: left;
+        font-family: "Alegreya", serif;
+        background-color: black;
+    }
+    #h:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    #h {
+        width: 100vw;
+        right: -100vw;
+        background-color: rgb(0, 0, 0);
+    }
+    html {
+        width: 100%;
+        font-weight: 700;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility !important;
+    }
+    ul {
+        padding: 0;
+        list-style: none;
+        display: inline-block;
+    }
+    #toggle {
+        cursor: pointer;
+    }
+    #div1 a:visited {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    #div1 a:hover {
+        color: rgb(255, 255, 255) !important;
+        text-decoration: none;
+    }
+    #div1 a:active {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    #div1 a:link {
+        color: rgba(255, 255, 255, 0.644);
+        text-decoration: none;
+        font-family: "Alegreya", serif;
+    }
+}
