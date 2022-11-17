@@ -5,6 +5,6 @@
 - [ ] Add some content
 - [ ] Colouring theme for Vid web
 ## About
-This is a redo of old fsi web
+This is a redo of the old fsi web
 ## Link
 Visit the live version at [Firebase](https://sman1-fsi.web.app/).
