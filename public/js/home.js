@@ -9,7 +9,7 @@ $(document).ready(function() {
         $("#pai").slideToggle("slow");
     });
     $(".read").click(function() {
-        $("#tex").slideToggle("fast");
-        $(".read").slideToggle("fast");
+        $("#tex").slideToggle(0);
+        $(".read").slideToggle(0);
     });
 });
