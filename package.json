@@ -7,7 +7,9 @@
     "doc": "doc"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run open",
+    "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/build\""
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,9 @@
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.10.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "http-server": "^14.1.1"
   }
 }

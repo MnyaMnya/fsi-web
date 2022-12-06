@@ -3,3 +3,5 @@
 firebase-debug.log
 *.log
 *.cache
+.firebase/hosting.cHVibGlj.cache
+*.cache
