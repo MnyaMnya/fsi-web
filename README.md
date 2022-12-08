@@ -8,3 +8,26 @@
 This is a redo of the old fsi web
 ## Link
 Visit the live version at [Firebase](https://sman1-fsi.web.app/).
+## How To Contribute
+- Create A [Github](https://github.com) Account
+- Creata A [Firebase](https://firebase.google.com) Account
+- Install [node.js](https://nodejs.org/en/download/) 
+- Install [Github Desktop](https://desktop.github.com)
+- Install [VS-Code](https://code.visualstudio.com/download) or [Notepad++](https://notepad-plus-plus.org/downloads/)
+- In Github Desktop Clone [this](https://github.com/MnyaMnya/fsi-web) Repository
+- Open Terminal in VS-Code or open cmd in repository location and type
+```
+npm i
+firebase login (E-Mail)
+```
+- Make Some Changes
+- Create a fork in Github Desktop and push
+- See Changes Using
+```
+firebase emulators:start
+```
+- And Use this to apply changes
+```
+firebase deploy --only hosting:sman1-fsi
+```
+
