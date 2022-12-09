@@ -18,7 +18,7 @@ Visit the live version at [Firebase](https://sman1-fsi.web.app/).
 - Open Terminal in VS-Code or open cmd in repository location and type
 ```
 npm i
-firebase login (E-Mail)
+firebase login
 ```
 - Make Some Changes
 - Create a fork in Github Desktop and push
@@ -30,4 +30,18 @@ firebase emulators:start
 ```
 firebase deploy --only hosting:sman1-fsi
 ```
+## How To Make Some Changes
+- After Repository Cloned Open It with VS-Code or Notepad++
+- All File are in public folder
+- Just Insert PDF Link in this format
+```
+<tr>
+  <td href="(pdf link)" src="(img file)"></td>
+  <td href="(pdf link)" src="(img file)"></td>
+  <td href="(pdf link)" src="(img file)"></td>
+</tr>
+```
+- Use PDF To IMG Converter to Make The Img file
+- Only 3 td are allowed inside tr
+- And save The Changes
 
