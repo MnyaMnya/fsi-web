@@ -1,7 +1,7 @@
 ## To-Do
-- [ ] Fix 404 page
+- [x] Fix 404 page
 - [ ] Fix mobile layout
-- [ ] Set footer pos to absolute bottom
+- [x] Set footer pos to absolute bottom
 - [ ] Add some content
 - [ ] Colouring theme for Vid web
 ## About
@@ -22,7 +22,7 @@ firebase login
 ```
 - Make Some Changes
 - Create a fork in Github Desktop and push
-- See Changes Using
+- Preview Changes Using
 ```
 firebase emulators:start
 ```
